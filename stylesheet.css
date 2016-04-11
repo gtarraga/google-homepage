@@ -1,0 +1,81 @@
+.main {
+  width: 980px;
+  height: 443px;
+  display: block;
+}
+
+.logo {
+  height: 270px;
+  width: 980px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding-top: 154px;
+}
+
+.form {
+  width: 638px;
+  height: 45px;
+  padding-top: 8px;
+  margin:auto;
+}
+
+form {
+  width: 484px;
+  height: 50px;
+  border: 1px solid rgb(217, 217, 217)
+  position: relative;
+  margin: auto;
+}
+
+input {
+  width: 487px;
+  height: 38px;
+  display: block;
+  margin: auto;
+}
+
+.buttons {
+  padding-top: 18px;
+  width: 487px;
+  height: 58px;
+  margin: auto;
+  background-color: pink
+}
+
+#search {
+  width: 126px;
+  height: 36px;
+  color: rgb(117, 117, 117);
+  font-family:Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0 16px;
+  border: 1px
+  margin-top: 11px;
+  margin-right: 4px;
+  margin-bottom: 11px;
+  margin-left: 4px;
+  display: inline-block;
+  text-align: center;
+  white-space: pre;
+}
+
+#lucky {
+  width: 143px;
+  height: 36px;
+  color: rgb(117, 117, 117);
+  font-family:Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0 16px;
+  border: 1px
+  margin-top: 11px;
+  margin-right: 4px;
+  margin-bottom: 11px;
+  margin-left: 4px;
+  display: inline-block;
+  text-align: center;
+}
