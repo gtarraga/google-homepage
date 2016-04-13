@@ -1,23 +1,16 @@
 .main {
-  width: 980px;
+  width: auto;
   height: 443px;
   display: block;
 }
 
 .lower {
   height: 128px;
-  width: 1284px;
+  width: auto;
 }
 
-.logo {
-  height: 270px;
-  width: 1284px;
-}
-
-img {
-  display: block;
-  margin: auto;
-  padding-top: 154px;
+.center-img {
+  padding: 154px 0 15px 0;
 }
 
 .form {
@@ -30,7 +23,6 @@ img {
 form {
   width: 584px;
   height: 50px;
-  border: 1px solid rgb(217, 217, 217)
   position: relative;
   margin: auto;
 }
@@ -59,7 +51,7 @@ input {
   font-size: 13px;
   font-weight: bold;
   padding: 0 16px;
-  border: 1px
+  border: 1px;
   margin-top: 11px;
   margin-right: 4px;
   margin-bottom: 11px;
@@ -75,78 +67,59 @@ input {
   font-size: 13px;
   font-weight: bold;
   padding: 0 16px;
-  border: 1px
+  border: 1px;
   margin-top: 11px;
   margin-right: 4px;
   margin-bottom: 11px;
   margin-left: 4px;
 }
 
-.top {
-  postition: absolute;
-  top: -295px;
-  width: 1286px;
-  height: 30px;
-
+.nav {
+  width: auto;
+  padding-top: 16px;
+  padding-right: 20px;
 }
 
-.upper {
-  width: 302px;
-  height: 30px;
+.navi {
   float: right;
-  padding: 0px 30px;
-  align-items: center;
-  position: relative;
-  }
-
-.options {
-  display: flex;
-  flex-grow: 0;
-  flex-shrink: 1;
-  width: 167px;
-  height: 24px;
-  padding-right: 15px;
-  text-align: right;
-  color: rgb(34, 34, 34);
-  font-family: Arial, sans-serif;
-  vertical-align: middle;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  margin: 0 9px;
+  font-family: Arial;
+  font-size: 13px;
+  color: #404040;
+  line-height: 24px;
 }
 
-div .name {
-  display: block;
-  width: 60px;
-  height: 24px;
-  font-size: 13px;
-  text-align: right;
-  color: rgb(34, 34, 34);
-  font-family: Arial, sans-serif;
-  opacity: 0.55;
-  margin: auto 0px;
+.navi button {
+  color: white;
+  background: #2E8AE6;
+  border: none;
+  height: 30px;
+  width: 70px;
+}
+.navi img {
+  padding-top: 3px;
 }
 
-div .gmail {
-  display: block;
-  flex-basis: auto;
-  padding-left: 15px;
-  width: 33px;
-  height: 24px;
-  font-size: 13px;
-  text-align: right;
-  color: rgb(34, 34, 34);
-  font-family: Arial, sans-serif;
+footer {
+  position: fixed;
+  bottom: 0px;
+  height: 40px;
+  width:100%;
 }
 
-div .images {
-  display: block;
-  flex-basis: auto;
-  padding-left: 15px;
-  width: 43px;
-  height: 24px;
+.links {
+  font-family: Arial;
   font-size: 13px;
-  text-align: right;
-  color: rgb(34, 34, 34);
-  font-family: Arial, sans-serif;
+  line-height: 24px;
+  color: #666;
+}
+
+.left {
+  float: left;
+  margin: 8px 15px;
+}
+
+.right {
+  float: right;
+  margin: 8px 15px;
 }
