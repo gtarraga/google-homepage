@@ -4,9 +4,14 @@
   display: block;
 }
 
+.lower {
+  height: 128px;
+  width: 1284px;
+}
+
 .logo {
   height: 270px;
-  width: 980px;
+  width: 1284px;
 }
 
 img {
@@ -23,7 +28,7 @@ img {
 }
 
 form {
-  width: 484px;
+  width: 584px;
   height: 50px;
   border: 1px solid rgb(217, 217, 217)
   position: relative;
@@ -31,10 +36,11 @@ form {
 }
 
 input {
-  width: 487px;
-  height: 38px;
+  width: 525px;
+  height: 26px;
   display: block;
   margin: auto;
+  padding: 5px 9px 0px 46px;
 }
 
 .buttons {
@@ -42,10 +48,10 @@ input {
   width: 487px;
   height: 58px;
   margin: auto;
-  background-color: pink
 }
 
 #search {
+  display: inline-block;
   width: 126px;
   height: 36px;
   color: rgb(117, 117, 117);
@@ -58,12 +64,10 @@ input {
   margin-right: 4px;
   margin-bottom: 11px;
   margin-left: 4px;
-  display: inline-block;
-  text-align: center;
-  white-space: pre;
 }
 
 #lucky {
+  display: inline-block;
   width: 143px;
   height: 36px;
   color: rgb(117, 117, 117);
@@ -76,6 +80,73 @@ input {
   margin-right: 4px;
   margin-bottom: 11px;
   margin-left: 4px;
-  display: inline-block;
-  text-align: center;
+}
+
+.top {
+  postition: absolute;
+  top: -295px;
+  width: 1286px;
+  height: 30px;
+
+}
+
+.upper {
+  width: 302px;
+  height: 30px;
+  float: right;
+  padding: 0px 30px;
+  align-items: center;
+  position: relative;
+  }
+
+.options {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: 167px;
+  height: 24px;
+  padding-right: 15px;
+  text-align: right;
+  color: rgb(34, 34, 34);
+  font-family: Arial, sans-serif;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+div .name {
+  display: block;
+  width: 60px;
+  height: 24px;
+  font-size: 13px;
+  text-align: right;
+  color: rgb(34, 34, 34);
+  font-family: Arial, sans-serif;
+  opacity: 0.55;
+  margin: auto 0px;
+}
+
+div .gmail {
+  display: block;
+  flex-basis: auto;
+  padding-left: 15px;
+  width: 33px;
+  height: 24px;
+  font-size: 13px;
+  text-align: right;
+  color: rgb(34, 34, 34);
+  font-family: Arial, sans-serif;
+}
+
+div .images {
+  display: block;
+  flex-basis: auto;
+  padding-left: 15px;
+  width: 43px;
+  height: 24px;
+  font-size: 13px;
+  text-align: right;
+  color: rgb(34, 34, 34);
+  font-family: Arial, sans-serif;
 }
